@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego Vachon Galindo - Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Diego Vachon Galindo</div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Diego Vachon Galindo</h1>
+                <h2>Computer Science & Mathematics Student at McGill University</h2>
+                <p>Passionate about algorithms, data science, and computational problem-solving</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn primary">View My Work</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="text-center-container">
+                        <p>I'm a Computer Science and Mathematics student at McGill University, with a focus on algorithms, machine learning, and computational methods. I enjoy developing solutions that leverage mathematical concepts and programming techniques to solve complex problems.</p>
+                        <p>I'm passionate about applying my knowledge in computer science and mathematics to create innovative solutions and technologies that make a positive impact.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">Bash</span>
+                        <span class="skill-tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Developer Tools</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Google Cloud Platform</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Visual Studio</span>
+                        <span class="skill-tag">IntelliJ</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Redis</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MySQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Libraries</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Scikit-Learn</span>
+                        <span class="skill-tag">Matplotlib</span>
+                        <span class="skill-tag">Seaborn</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>AI-Based Dynamic Triage System</h3>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">DeepSeek API</span>
+                            <span class="tag">DeepFace</span>
+                            <span class="tag">OpenCV</span>
+                            <span class="tag">NumPy</span>
+                        </div>
+                        <p>Developed a dynamic triage system that evaluates patient priority in real-time using AI-driven emotion analysis and symptom assessment.</p>
+                        <ul>
+                            <li>Integrated DeepSeek's API to analyze patient data (symptoms, age, chronic conditions, wait time, and recent emotions) and assign a priority level (1-3) based on predefined triage guidelines</li>
+                            <li>Utilized DeepFace and OpenCV for real-time emotion detection from webcam feeds, logging patient emotions periodically to assess distress levels</li>
+                            <li>Implemented a patient management system with randomized patient data generation, including age, symptoms, chronic conditions, and arrival times, to simulate a real-world emergency room scenario</li>
+                            <li>Achieved dynamic prioritization by combining emotional state analysis with clinical symptom evaluation, ensuring critical cases are flagged for immediate attention</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Search Engine Implementation</h3>
+                        <div class="project-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Data Structures</span>
+                            <span class="tag">Algorithms</span>
+                            <span class="tag">Graph Theory</span>
+                            <span class="tag">Web Development</span>
+                        </div>
+                        <p>Developed a complete search engine with three core components: web crawler, indexer, and page ranking algorithm, simulating how commercial search engines like Google operate.</p>
+                        <ul>
+                            <li>Implemented a graph-based data structure to represent web pages and their relationships, utilizing breadth-first search for efficient web crawling</li>
+                            <li>Created an index system that maps words to their corresponding web pages, leveraging hash tables for O(1) time complexity lookups</li>
+                            <li>Engineered a ranking algorithm similar to PageRank to determine the relative importance of web pages based on their linking structure</li>
+                            <li>Built efficient sorting algorithms with O(n log n) time complexity to present search results in order of relevance</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Equation Classification Model (CNN)</h3>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">PyTorch</span>
+                            <span class="tag">NumPy</span>
+                            <span class="tag">Scikit-learn</span>
+                            <span class="tag">Pandas</span>
+                        </div>
+                        <p>Deep learning project predicting the results of simple equations displayed in grayscale images. Each image (50x80 pixels) contains two digits and calculates the sum of its product.</p>
+                        <ul>
+                            <li>Built a CNN consisting of four convolutional blocks and fully connected layers, with advanced features like dilated convolutions, batch normalization, and adaptive pooling</li>
+                            <li>Enhanced generalization using data augmentation (random affine, erasing, mixup)</li>
+                            <li>Optimized training with AdamW optimizer and learning rate scheduling</li>
+                            <li>Preprocessed data through normalization, dataset splitting, and augmentation to improve model robustness</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Terrain Modeler and Analysis System</h3>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">NumPy</span>
+                            <span class="tag">Object-Oriented Design</span>
+                            <span class="tag">3D Modeling</span>
+                            <span class="tag">Computational Geometry</span>
+                        </div>
+                        <p>Developed a comprehensive terrain modeling tool that creates, manipulates, and analyzes 3D terrain surfaces using NumPy arrays.</p>
+                        <ul>
+                            <li>Implemented mathematical operations for terrain modification including elevation thresholding, gradient computation, and extrema detection</li>
+                            <li>Created bilinear interpolation algorithms using NumPy for precise elevation and gradient calculations at arbitrary coordinates</li>
+                            <li>Engineered methods to identify critical terrain features such as local maxima, minima, and steep slopes through gradient magnitude thresholding</li>
+                            <li>Built an object-oriented system with robust error handling for terrain operations, allowing seamless combination of multiple terrain objects with NumPy</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>House Price Prediction Model</h3>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Pandas</span>
+                            <span class="tag">Scikit-learn</span>
+                            <span class="tag">Seaborn</span>
+                            <span class="tag">Matplotlib</span>
+                        </div>
+                        <p>Developed a machine learning model using linear regression to predict California house prices.</p>
+                        <ul>
+                            <li>Performed exploratory data analysis (EDA), feature engineering, and data normalization</li>
+                            <li>Evaluated model performance with metrics like mean absolute error (MAE)</li>
+                            <li>Visualized results and recommended advanced models for improvement</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:diego.vachongalindo@mail.mcgill.ca">diego.vachongalindo@mail.mcgill.ca</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/diego-vachon-galindo-263b66234/" target="_blank">linkedin.com/in/diego-vachon-galindo-263b66234</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/diegovachon" target="_blank">github.com/diegovachon</a>
+                    </div>
+                </div>
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Diego Vachon Galindo. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/diego-vachon-galindo-263b66234/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/diegovachon" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
